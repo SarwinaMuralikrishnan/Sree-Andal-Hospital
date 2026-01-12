@@ -1,44 +1,44 @@
 🏥 Sree Andal Hospital Mobile App
 
-Sree Andal Hospital Mobile App is a simple cross-platform mobile application that demonstrates the development of a hospital management system using Flutter. The project focuses on building a clean structure for managing hospital workflows such as patient and doctor interactions while following good development and version control practices.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sree Andal Hospital Mobile App is a professionally structured, cross-platform mobile application developed using Flutter for Android and iOS platforms. The project demonstrates the implementation of a hospital management workflow with a focus on clean architecture, scalability, and maintainable code practices.
+
 📌 Project Overview
 
-This project was created as a learning-oriented and real-world implementation to understand:
+This project was developed to gain hands-on experience in designing and implementing a real-world hospital management mobile application. It focuses on understanding:
 
-Mobile app development using Flutter
+Cross-platform mobile application development using Flutter
 
-Role-based application workflow (Patient and Doctor)
+Role-based workflow implementation (Patient and Doctor)
 
-Structuring a hospital management mobile application
+Structuring a scalable and maintainable mobile application
 
-Integrating frontend with backend services
+Integration of frontend components with backend services
 
-Using Git and GitHub for version control
+Effective use of Git and GitHub for version control and collaboration
 
-It serves as a foundation project that can be extended further with additional hospital features and real-world logic.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The application serves as a foundational system that can be extended with advanced hospital management features in future iterations.
+
 🛠 Tech Stack
 
 Frontend: Flutter (Dart)
 
-Backend: Firebase / REST API
+Backend: Firebase / RESTful API
 
 Database: Firebase Firestore / MySQL
 
 Authentication: Firebase Authentication
 
 Version Control: Git & GitHub
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 Getting Started
 
-Follow the steps below to run the project locally.
+Follow the steps below to set up and run the project locally.
 
 Prerequisites
 
-Flutter SDK installed on your system
+Flutter SDK installed on the system
 
-Android Studio installed
+Android Studio with Flutter and Dart plugins
 
 Android Emulator or physical Android device
 
@@ -56,7 +56,7 @@ Navigate to the project directory:
 cd sree_andal_hospital
 
 
-Get Flutter dependencies:
+Install dependencies:
 
 flutter pub get
 
@@ -64,46 +64,51 @@ flutter pub get
 Run the application:
 
 flutter run
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📂 Project Structure
 sree_andal_hospital/
 │── lib/
 │   │── main.dart        # Application entry point
-│   │── screens/         # App screens
-│   │── widgets/         # Reusable UI components
-│   │── services/        # Backend services
-│── android/             # Android configuration
-│── ios/                 # iOS configuration
-│── pubspec.yaml         # Dependencies
+│   │── screens/         # UI screens
+│   │── widgets/         # Reusable components
+│   │── services/        # Backend and API services
+│── android/             # Android platform configuration
+│── ios/                 # iOS platform configuration
+│── pubspec.yaml         # Project dependencies
 │── README.md            # Project documentation
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🔄 Application Workflow
+App Launch
+→ Splash Screen
+→ Authentication (Login / Registration)
+→ Role Selection
+→ Role-Based Dashboard
+
 🎯 Learning Outcomes
 
-Understood Flutter mobile app development
+Gained practical experience in Flutter mobile application development
 
-Learned role-based application design
+Implemented role-based application architecture
 
-Practiced frontend and backend integration
+Strengthened understanding of frontend-backend integration
 
-Gained experience with Git workflow (add, commit, push)
+Practiced professional Git version control workflows
 
-Learned how to structure a beginner-friendly mobile app project
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Learned to design maintainable and scalable mobile applications
+
 🔮 Future Enhancements
 
-Online appointment booking
+Online appointment scheduling
 
-Appointment notifications
+Push notifications for reminders
 
-Medical report uploads
+Medical report upload and access
 
 Payment gateway integration
 
-Multi-language support
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Multi-language and accessibility support
+
 ✨ Author
 
 Sarwina Muralikrishnan
 GitHub: https://github.com/SarwinaMuralikrishnan
-Sruthi S
-GitHub: 
